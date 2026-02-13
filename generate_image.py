@@ -40,11 +40,8 @@ facts = facts_data["facts"]
 facts_text = ", ".join(facts)
 
 prompt = f"""
-Cinematic, dark illustration related to: {topic}.
-Visualize the mood of these ideas: {facts_text}.
-Deep space setting, eerie atmosphere,
-high detail, dramatic lighting,
-vertical composition, realistic.
+cinematic deep space nebula, dramatic lighting, dark atmosphere, vertical composition
+
 """
 
 # 3️⃣ Generate image
